@@ -15,7 +15,6 @@ const greeting = (word) => {
 const speaker = (message, callback) => {
   const upperString = callback(message);
   return upperString;
-  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -34,12 +33,13 @@ Within the addNumbers function, invoke the callback function as many times as ne
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr, value) => {
-  // Solution code here...
-};
+const addValues = (arr, value) => arr.push(value);
 
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+  for(var rounds = 0; rounds < times; rounds++){
+    addValues(arr, num);
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
