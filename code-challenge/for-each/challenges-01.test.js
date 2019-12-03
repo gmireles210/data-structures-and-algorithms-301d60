@@ -141,8 +141,21 @@ Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
 const fizzbuzz = (arr) => {
-  // Solution code here...
+  let productArray = [];
+  arr.forEach(function(value, index, array){
+    if((value % 3 === 0) && (value % 5 === 0)){
+      productArray.push('Fizz Buzz');
+    }else if (value % 3 === 0){
+      productArray.push('Fizz');
+    }else if(value % 5 === 0){
+      productArray.push('Buzz');
+    }else{
+      productArray.push(value);
+    }
+  })
+  return productArray;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
