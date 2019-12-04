@@ -8,9 +8,8 @@ Write a function that appends ' The end.' to a string, and returns the modified 
 
 ------------------------------------------------------------------------------------------------ */
 
-const appendTheEnd = (str) => {
-  // Solution code here...
-};
+// eslint-disable-next-line no-unexpected-multiline
+const appendTheEnd = (str) => `${str} The end.`
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
