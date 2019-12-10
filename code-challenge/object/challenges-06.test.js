@@ -70,7 +70,9 @@ let characters = [
 
 const getHouses = (arr) => {
   let houses = [];
-  // Solution code here...
+  for (let names of arr) {
+    houses.push(names.house)
+  }
   return houses;
 };
 
@@ -87,7 +89,13 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  // Solution code here...
+  let answer = false;
+  arr.forEach(profile => {
+    if (profile.name === character) {
+      answer = profile.children.length > 0;
+    }
+  })
+  return answer;
 
 };
 
@@ -100,7 +108,16 @@ The input and output of this function are the same as the input and output from 
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenEntries = (arr, character) => {
-  // Solution code here...
+  for (let [key, value] of Object.entries(arr)) {
+    if (character === value.name){
+      if (value.children.length < 1){
+        return false;
+      } else {
+        return true;
+      }
+    }
+  }
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -110,7 +127,17 @@ Write a function named totalCharacters that takes in an array and returns the nu
 ------------------------------------------------------------------------------------------------ */
 
 const totalCharacters = (arr) => {
-  // Solution code here...
+  let numMembers = 0;
+  arr.forEach(house => {
+    numMembers ++;
+    if(house.children.length > 0){
+      numMembers += house.children.length;
+    }
+    if (house.spouse !== null) {
+      numMembers ++;
+    }
+  })
+  return numMembers;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -125,7 +152,7 @@ For example: [{ house: 'Stark', members: 7 }, { house: 'Arryn', members: 3 }, ..
 
 const houseSize = (arr) => {
   const sizes = [];
-  // Solution code here...
+  // unable to solve...
   return sizes;
 };
 
@@ -149,7 +176,7 @@ const deceasedSpouses = ['Catelyn', 'Lysa', 'Robert', 'Khal Drogo', 'Alerie'];
 
 const houseSurvivors = (arr) => {
   const survivors = [];
-  // Solution code here...
+  // unable to solve...
   return survivors;
 };
 
