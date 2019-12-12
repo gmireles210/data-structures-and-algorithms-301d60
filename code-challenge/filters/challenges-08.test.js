@@ -44,8 +44,10 @@ Write a function named notInFirstArray that, given two arrays as input, uses fil
 For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 ------------------------------------------------------------------------------------------------ */
 
-const notInFirstArray = (forbiddenValues, arr) => {
-  // Solution code here...
+const notInFirstArray = (notToUseValues, arr) => {
+  const special = arr.filter ( ele => notToUseValues.includes(ele) === false);
+  return special;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -87,8 +89,9 @@ const snorlaxData = {
   weight: 4600,
 };
 
-const getBaseStatGreaterThan = (arr, minBaseStat) => {
-  // Solution code here...
+const getBaseStatGreaterThan = (arr, minimumBaseStats) => {
+  let sort = arr.filter (ele => ele.baseStat > minimumBaseStats);
+  return sort;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -99,8 +102,9 @@ Write a function named getStatName that is an extension of your getBaseStatGreat
 For example, getStatName(snorlaxData.stats, 50) will return ['special-defense', 'special-attack'].
 ------------------------------------------------------------------------------------------------ */
 
-const getStatName = (arr, minBaseStat) => {
-  // Solution code here...
+const getStatName = (arr, minimumBaseStats) => {
+  let sort =  arr.filter (ele => ele.baseStat > minimumBaseStats);
+  return sort.map( ele => ele.stat.name);
 };
 
 /* ------------------------------------------------------------------------------------------------
