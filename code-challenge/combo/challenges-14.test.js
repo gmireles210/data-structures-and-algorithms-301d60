@@ -9,7 +9,12 @@ For example, ['apple', 'banana', 'MacGyver'] returns ['Apple', 'Banana', 'MacGyv
 ------------------------------------------------------------------------------------------------ */
 
 const toTitleCase = (arr) => {
-  // Solution code here...
+  const arrayZ = arr.map ( word => {
+
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  })
+
+  return arrayZ;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -84,12 +89,15 @@ let starWarsData = [{
 }];
 
 let biggerThanLuke = (arr) => {
-  // Solution code here...
+
+  let arrayNew = arr.filter(character => Number(character.mass) > Number (arr[0].mass));
+
+  return arrayNew.map(str => str.name).join('-');
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
-Write a function named sortBy that takes in an array of objects, each of which has a particular property, and sorts those objects by that property, lowest to highest, returning the same array.
+Write a function named sortBy that takes in an array of objects, each of which has a particular valueerty, and sorts those objects by that valueerty, lowest to highest, returning the same array.
 
 Here is an example of the input:
 [
@@ -101,8 +109,15 @@ Here is an example of the input:
 This data could be sorted by name or price.
 ------------------------------------------------------------------------------------------------ */
 
-const sortBy = (property, arr) => {
-  // Solution code here...
+const sortBy = (value, array) => {
+  array.sort(function(a, b){
+    if(isNaN(a[value]) && isNaN(b[value])){
+      return a[value] < b[value] ? -1 : 1;
+    } else {
+      return a[value] - b[value];
+    }
+  })
+  return array;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -118,7 +133,8 @@ https://secure.com returns true because the URL is secure
 https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = (url) => {
-// Solution code here...
+
+  return /^https:\/\//.test(url);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -141,7 +157,7 @@ Here is a sample board:
 ------------------------------------------------------------------------------------------------ */
 
 const detectTicTacToeWin = (board) => {
-  // Solution code here...
+  // Attempted.
 };
 
 /* ------------------------------------------------------------------------------------------------
