@@ -146,16 +146,21 @@ const weeklyTemperatures = [
 ];
 
 const averageDailyTemperature = (weather) => {
-  
+  let totalWeeks = 0;
+  let divide = 0;
+  for(let weekly_Forecast of weather){
+    for(let daily_Temperature of weekly_Forecast){
+      totalWeeks += weather[weather.indexOf(weekly_Forecast)][weekly_Forecast.indexOf(daily_Temperature)];
+      divide ++;
+    }
+  }
+  return totalWeeks / divide;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7
-
 Write a function named lowestWeeklyAverage that accepts a two-dimensional array of daily temperatures grouped week-by-week.
-
-Calculate the average temperature for each week and return the digit of the lowest weekly average temperature.
-
+Calculate the average temperature for each week and return the value of the lowest weekly average temperature.
 For example, in the data set below, the lowest weekly average is 46, which is the average of the temperatures in week 2. All other weeks have average temperatures that are greater than 46.
 ------------------------------------------------------------------------------------------------ */
 
@@ -166,24 +171,23 @@ let lowestWeeklyTemperatureData = [
   [65, 56, 55, 52, 55, 62, 57],
 ];
 
-const lowestWeeklyAverage = (weather) => {
-  // Solution code here...
-};
+const lowestWeeklyAverage = (climate) => climate.reduce((outer_Index,row) => {
+  return Math.min(outer_Index, row.reduce((element,index) => element + index) / row.length);
+}, 1000);
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 8
-
 Write a function called excel that accepts a string representing rows and columns in a table.
-
 Rows are seperated by newline "\n" characters. Columns are seperated by commas. For example, '1,1,1\n4,4,4\n9,9,9' represents a 3x3 table.
-
-The function should parse the string as rows and columns and compute the sum of the digits for each row. Return an array with the sum of the digits in each row.
-
+The function should parse the string as rows and columns and compute the sum of the values for each row. Return an array with the sum of the values in each row.
 For example, excel('1,1,1\n4,4,4\n9,9,9') returns [3, 12, 27].
 ------------------------------------------------------------------------------------------------ */
 
 const excel = (str) => {
-  // Solution code here...
+  const strArray = str.split('\n').map(element => element.split(','));
+  return strArray.map(element =>
+    element.reduce((index,digit) => index + parseInt(digit), 0));
 };
 
 /* ------------------------------------------------------------------------------------------------
