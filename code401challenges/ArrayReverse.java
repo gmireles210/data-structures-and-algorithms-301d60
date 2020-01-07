@@ -25,6 +25,5 @@ public class ArrayReverse {
         }
 
         return inputArray;
-        
     }
 }
