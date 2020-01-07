@@ -10,4 +10,4 @@ Take in a Java Array and reverse it.
 ## Approach & Efficiency
 The approach was completed by using a for-loop to iterate through the array and reverse it.
 
-![Test Image 1](whiteboard.jpg)
+![Test Image 1](code401challenges/assets/whiteboard.jpg)
