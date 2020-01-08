@@ -22,4 +22,4 @@ Get a number to fit inside of an array at the midpoint
 My partner and I did some simple math in order to get an outside number into a midpoint of an array
 
 ## Solution
-![Test Image 1](code401challenges/IMG_0934.jpg)
+![Test Image 1](IMG_0934.jpg)
