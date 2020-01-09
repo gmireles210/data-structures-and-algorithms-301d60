@@ -37,4 +37,4 @@ Used a for-loop to in order to find a midpoint in an array
 Loop through arrays and found midpoint, took awhile but we figured it out. 
 
 ## Solution
-![Test Image 2](IMG_0934.jpg)
+![Test Image 3](code3.jpg)
