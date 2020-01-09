@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e04d9c0b-8f96-459e-9fb8-6479db6bb8e9" name="Default Changelist" comment="">
+    <list default="true" id="3662423f-1c5d-42f3-bfac-764c123b8786" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/code401challenges/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code401challenges.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BinarySearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/data-structures-and-algorithms/code401challenges/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/data-structures-and-algorithms/code401challenges/.idea/code401challenges.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/data-structures-and-algorithms/code401challenges/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/data-structures-and-algorithms/code401challenges/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/src/main/.idea/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/src/main/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/src/main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code401challenges1/src/main/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +39,6 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -37,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1W7d4hrbiTM5zL2Li4au50URFMb" />
+  <component name="ProjectId" id="1WATkAqIvLekhdYp7RVv5gM6VWl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,10 +58,64 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.insertArrayShiftTest">
+  <component name="RunManager" selected="Gradle.BinarySearchTest">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code401challenges.BinarySearch" />
+      <module name="code401challenges.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.BinarySearchTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BinarySearchTest.testBinarySearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;code401challenges.BinarySearchTest.testBinarySearch&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -70,93 +136,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.testSomeLibraryMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.LibraryTest.testSomeLibraryMethod&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="insertArrayShiftTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.insertArrayShiftTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="insertShiftArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.insertShiftArrayTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="insertShiftArrayTest.testInsertShiftArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code401challenges.insertShiftArrayTest.testInsertShiftArray&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.insertArrayShiftTest" />
-        <item itemvalue="Gradle.insertShiftArrayTest" />
-        <item itemvalue="Gradle.LibraryTest.testSomeLibraryMethod" />
+        <item itemvalue="Gradle.BinarySearchTest" />
+        <item itemvalue="Gradle.BinarySearchTest.testBinarySearch" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Gradle.LibraryTest" />
-        <item itemvalue="Gradle.insertShiftArrayTest.testInsertShiftArray" />
       </list>
     </recent_temporary>
   </component>
@@ -177,46 +162,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e04d9c0b-8f96-459e-9fb8-6479db6bb8e9" name="Default Changelist" comment="" />
-      <created>1578504378411</created>
+      <changelist id="3662423f-1c5d-42f3-bfac-764c123b8786" name="Default Changelist" comment="" />
+      <created>1578591540347</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578504378411</updated>
+      <updated>1578591540347</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="660" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578506663936">
+    <state x="591" y="276" key="FileChooserDialogImpl" timestamp="1578591709247">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state x="660" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578506663936" />
-    <state x="591" y="276" key="FileChooserDialogImpl" timestamp="1578505588046">
+    <state x="591" y="276" key="FileChooserDialogImpl/0.0.1620.1040@0.0.1620.1040" timestamp="1578591709247" />
+    <state width="1578" height="282" key="GridCell.Tab.0.bottom" timestamp="1578597825313">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state x="591" y="276" key="FileChooserDialogImpl/0.0.1620.1040@0.0.1620.1040" timestamp="1578505588046" />
-    <state width="1578" height="185" key="GridCell.Tab.0.bottom" timestamp="1578536736341">
+    <state width="1578" height="282" key="GridCell.Tab.0.bottom/0.0.1620.1040@0.0.1620.1040" timestamp="1578597825313" />
+    <state width="1578" height="282" key="GridCell.Tab.0.center" timestamp="1578597825312">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="185" key="GridCell.Tab.0.bottom/0.0.1620.1040@0.0.1620.1040" timestamp="1578536736341" />
-    <state width="1578" height="185" key="GridCell.Tab.0.center" timestamp="1578536736341">
+    <state width="1578" height="282" key="GridCell.Tab.0.center/0.0.1620.1040@0.0.1620.1040" timestamp="1578597825312" />
+    <state width="1578" height="282" key="GridCell.Tab.0.left" timestamp="1578597825312">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="185" key="GridCell.Tab.0.center/0.0.1620.1040@0.0.1620.1040" timestamp="1578536736341" />
-    <state width="1578" height="185" key="GridCell.Tab.0.left" timestamp="1578536736341">
+    <state width="1578" height="282" key="GridCell.Tab.0.left/0.0.1620.1040@0.0.1620.1040" timestamp="1578597825312" />
+    <state width="1578" height="282" key="GridCell.Tab.0.right" timestamp="1578597825312">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="185" key="GridCell.Tab.0.left/0.0.1620.1040@0.0.1620.1040" timestamp="1578536736341" />
-    <state width="1578" height="185" key="GridCell.Tab.0.right" timestamp="1578536736341">
+    <state width="1578" height="282" key="GridCell.Tab.0.right/0.0.1620.1040@0.0.1620.1040" timestamp="1578597825312" />
+    <state x="506" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578591545355">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="185" key="GridCell.Tab.0.right/0.0.1620.1040@0.0.1620.1040" timestamp="1578536736341" />
-    <state x="143" y="170" key="SettingsEditor" timestamp="1578554283732">
-      <screen x="0" y="0" width="1620" height="1040" />
-    </state>
-    <state x="143" y="170" key="SettingsEditor/0.0.1620.1040@0.0.1620.1040" timestamp="1578554283732" />
-    <state x="506" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578524300842">
-      <screen x="0" y="0" width="1620" height="1040" />
-    </state>
-    <state x="506" y="345" key="com.intellij.ide.util.TipDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578524300842" />
+    <state x="506" y="345" key="com.intellij.ide.util.TipDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578591545355" />
   </component>
 </project>
