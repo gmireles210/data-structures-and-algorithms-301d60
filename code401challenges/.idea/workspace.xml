@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e04d9c0b-8f96-459e-9fb8-6479db6bb8e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/code401challenges/insertArrayShiftTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401challenges/ArrayShift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401challenges/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401challenges/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1W7d4hrbiTM5zL2Li4au50URFMb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Gradle.insertArrayShiftTest">
     <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -210,6 +210,10 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state width="1578" height="185" key="GridCell.Tab.0.right/0.0.1620.1040@0.0.1620.1040" timestamp="1578536736341" />
+    <state x="143" y="170" key="SettingsEditor" timestamp="1578554283732">
+      <screen x="0" y="0" width="1620" height="1040" />
+    </state>
+    <state x="143" y="170" key="SettingsEditor/0.0.1620.1040@0.0.1620.1040" timestamp="1578554283732" />
     <state x="506" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578524300842">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
