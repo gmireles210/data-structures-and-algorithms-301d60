@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3662423f-1c5d-42f3-bfac-764c123b8786" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedList.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,9 +216,9 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="506" y="345" key="com.intellij.ide.util.TipDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578591545355" />
-    <state x="582" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578948567656">
+    <state x="582" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578948768720">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state x="582" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578948567656" />
+    <state x="582" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578948768720" />
   </component>
 </project>
