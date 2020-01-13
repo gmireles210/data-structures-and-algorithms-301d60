@@ -12,7 +12,7 @@ public class LinkedList {
             this.next = next;
         }
     }
-    // Define a method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance.
+    // Head
     public void insertHead(int headValue){
         // New Head instantiation
         Node NodeHead = new Node(headValue, null);
@@ -23,7 +23,7 @@ public class LinkedList {
         // Assign new head's "next" to old list data
         this.head.next = FormerHead;
     }
-    // Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node's value somewhere within the list.
+    // Include List with dataVal
     public boolean includedInList(int searchValue){
         // Creating current instance
         Node curr = this.head;
@@ -35,7 +35,7 @@ public class LinkedList {
         }
         return false;
     }
-    // Define a method called toString which takes in no arguments and returns a string representing all the values in the Linked List, formatted as: "{ a } -> { b } -> { c } -> NULL"
+    // Create string with dataVal
     public String toString(){
         Node curr = this.head;
         String overallCommand = "";
