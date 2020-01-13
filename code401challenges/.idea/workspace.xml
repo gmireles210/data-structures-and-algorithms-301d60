@@ -63,32 +63,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.LinkedListTest">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedList" />
-      <module name="code401challenges.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="linkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.linkedListTest" />
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BinarySearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -129,6 +103,46 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LinkedListTest.booleanValueSearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;linkedList.LinkedListTest.booleanValueSearch&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedListTest.toStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;linkedList.LinkedListTest.toStringTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="linkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,10 +166,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LinkedListTest" />
+        <item itemvalue="Gradle.LinkedListTest.booleanValueSearch" />
+        <item itemvalue="Gradle.LinkedListTest.toStringTest" />
         <item itemvalue="Gradle.LinkedListTest" />
         <item itemvalue="Gradle.linkedListTest" />
-        <item itemvalue="Application.linkedListTest" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -201,22 +215,22 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="591" y="276" key="FileChooserDialogImpl/0.0.1620.1040@0.0.1620.1040" timestamp="1578591709247" />
-    <state width="1578" height="282" key="GridCell.Tab.0.bottom" timestamp="1578954716633">
+    <state width="1578" height="282" key="GridCell.Tab.0.bottom" timestamp="1578958800209">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="282" key="GridCell.Tab.0.bottom/0.0.1620.1040@0.0.1620.1040" timestamp="1578954716633" />
-    <state width="1578" height="282" key="GridCell.Tab.0.center" timestamp="1578954716633">
+    <state width="1578" height="282" key="GridCell.Tab.0.bottom/0.0.1620.1040@0.0.1620.1040" timestamp="1578958800209" />
+    <state width="1578" height="282" key="GridCell.Tab.0.center" timestamp="1578958800209">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="282" key="GridCell.Tab.0.center/0.0.1620.1040@0.0.1620.1040" timestamp="1578954716633" />
-    <state width="1578" height="282" key="GridCell.Tab.0.left" timestamp="1578954716633">
+    <state width="1578" height="282" key="GridCell.Tab.0.center/0.0.1620.1040@0.0.1620.1040" timestamp="1578958800209" />
+    <state width="1578" height="282" key="GridCell.Tab.0.left" timestamp="1578958800209">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="282" key="GridCell.Tab.0.left/0.0.1620.1040@0.0.1620.1040" timestamp="1578954716633" />
-    <state width="1578" height="282" key="GridCell.Tab.0.right" timestamp="1578954716633">
+    <state width="1578" height="282" key="GridCell.Tab.0.left/0.0.1620.1040@0.0.1620.1040" timestamp="1578958800209" />
+    <state width="1578" height="282" key="GridCell.Tab.0.right" timestamp="1578958800209">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="282" key="GridCell.Tab.0.right/0.0.1620.1040@0.0.1620.1040" timestamp="1578954716633" />
+    <state width="1578" height="282" key="GridCell.Tab.0.right/0.0.1620.1040@0.0.1620.1040" timestamp="1578958800209" />
     <state x="625" y="299" key="chooseDestDirectoryDialog" timestamp="1578951285118">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
