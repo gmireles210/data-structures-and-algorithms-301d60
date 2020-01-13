@@ -1,7 +1,7 @@
 # data-structures-and-algorithms-301d60
 # data-structures-and-algorithms-401-Java
 
-# Lab 1
+# C 1
 ## Reverse an Array
 Reverse it using a for loop.
 
@@ -13,7 +13,7 @@ The approach was completed by using a for-loop to iterate through the array and 
 
 ![Test Image 1](code401challenges1/assets/whiteboard.jpg)
 
-# Lab 2
+# Code Challenge 2
 ## Shift an Array
 Using some simple math, determine if an array is even or odd, then place number at midpoint
 
@@ -26,7 +26,7 @@ My partner and I did some simple math in order to get an outside number into a m
 ## Solution
 ![Test Image 2](IMG_0934.jpg)
 
-# Lab 3
+# Code Challenge 3
 ## Binary Search
 Find a midpoint
 
@@ -38,3 +38,20 @@ Loop through arrays and found midpoint, took awhile but we figured it out.
 
 ## Solution
 ![Test Image 3](code3.jpg)
+
+# Singly Linked List
+Created a node, pointer and LinkedList class
+
+## Challenge
+Get a node to point to the next LinkedList
+
+## Approach & Efficiency
+The approach I took was to first use online resources from csu.edu and stackoverflow. From there I used help from fellow classmates to help with the testing and string method
+
+## API
+ToString, IncludedInList, InsertHead. 
+ToString was to get the data to go into a string
+IncludedInList was the head data added
+Insert Head was to create a new head from the pointer
+
+
