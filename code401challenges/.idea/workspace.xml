@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3662423f-1c5d-42f3-bfac-764c123b8786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +14,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,6 +48,14 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="linkedlist" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.linkedListTest">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -168,10 +184,10 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="616" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1620.1040@0.0.1620.1040" timestamp="1578940088053" />
-    <state x="278" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578940777145">
+    <state x="278" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578948297446">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state x="278" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578940777145" />
+    <state x="278" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578948297446" />
     <state x="591" y="276" key="FileChooserDialogImpl" timestamp="1578591709247">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
@@ -200,5 +216,9 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="506" y="345" key="com.intellij.ide.util.TipDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578591545355" />
+    <state x="582" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578948567656">
+      <screen x="0" y="0" width="1620" height="1040" />
+    </state>
+    <state x="582" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578948567656" />
   </component>
 </project>
