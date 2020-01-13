@@ -37,12 +37,14 @@ public class LinkedList {
     }
     // Create string with dataVal
     public String toString(){
+
         Node curr = this.head;
         String overallCommand = "";
         while (curr != null){
-            String stringCommand = "{ " + curr.dataVal + " } => ";
-            overallCommand = overallCommand + stringCommand;
+            String stringStatement = "{ " + curr.dataVal + " } => ";
+            overallCommand = overallCommand + stringStatement;
             curr = curr.next;
+
         }
         return overallCommand + "null";
     }
