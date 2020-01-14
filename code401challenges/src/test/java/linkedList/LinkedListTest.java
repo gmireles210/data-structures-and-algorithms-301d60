@@ -45,5 +45,6 @@ public class LinkedListTest {
         assertEquals("Contains nodes 55, 12, 25",
                 expectedAnswer,
                 list.toString());
+        System.out.println("expectedAnswer = " + expectedAnswer);
     }
 }
