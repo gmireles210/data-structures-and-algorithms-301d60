@@ -54,4 +54,16 @@ ToString was to get the data to go into a string
 IncludedInList was the head data added
 Insert Head was to create a new head from the pointer
 
+# Code Challenge 6
+## Shift an Array
+Used 3 methods on a LinkedList called array, insertBefore, insertAfter to add values to the beginning and middle of array
+
+## Challenge Description
+Get a value to append and insert at various locations of LinkedList
+
+## Approach & Efficiency
+My partner and I created methods to append and insert values onto a LinkList and then from there we ran tests that are both true and false to ensure each portion worked
+
+## Solution
+![Test Image 2](CC6.jpg)
 
