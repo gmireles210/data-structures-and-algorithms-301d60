@@ -34,6 +34,7 @@ public class LinkedListTest {
                 list.includedInList(11));
         assertTrue("Does have 12.",
                 list.includedInList(12));
+
     }
 
     @Test public void toStringTest() {
@@ -45,6 +46,6 @@ public class LinkedListTest {
         assertEquals("Contains nodes 55, 12, 25",
                 expectedAnswer,
                 list.toString());
-        System.out.println("expectedAnswer = " + expectedAnswer);
+        //System.out.println("expectedAnswer = " + expectedAnswer);
     }
 }

@@ -48,4 +48,5 @@ public class LinkedList {
         }
         return overallCommand + "null";
     }
+
 }
