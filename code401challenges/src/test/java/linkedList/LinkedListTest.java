@@ -1,4 +1,8 @@
 package linkedList;
+//Used online resources from StackOverflow, geeks to geeks, and team members
+//https://stackoverflow.com/questions/37137350/linkedlist-insert-after-node/37138082
+//https://codereview.stackexchange.com/questions/104940/inserting-a-node-to-a-given-position-in-a-linked-list
+//http://junit.sourceforge.net/javadoc/org/junit/Before.html // https://junit.org/junit4/faq.html
 
 import static org.junit.Assert.*;
 
@@ -10,7 +14,7 @@ import org.junit.Before;
 public class LinkedListTest {
 
     LinkedList<Integer> intList;
-    //start list with intergers
+    //start list with intergers and used before after seeing in various resources
     @Before public void start_LL_W_Ints() {
 
         intList = new LinkedList<>();
@@ -29,6 +33,7 @@ public class LinkedListTest {
         intList.insertHead(6);
     }
 
+    // Testing LL values
     @Test public void llListValTest() {
 
         assertEquals(6, (int) intList.head.value);
@@ -45,7 +50,7 @@ public class LinkedListTest {
         assertEquals(20, (int) intList.head.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.value);
 
     }
-
+    // Testing Empty LL
     @Test public void linkedList_EmptyTest() {
 
         LinkedList<Integer> emptyIntegerList = new LinkedList<>();
@@ -56,6 +61,7 @@ public class LinkedListTest {
         assertEquals(expected, actual);
     }
 
+    // Testing Insert
     @Test public void linkedList_InsertTest() {
 
         int expected = 12;
@@ -64,6 +70,7 @@ public class LinkedListTest {
         assertEquals(expected, actual);
     }
 
+    // Testing strings
     @Test public void linkedList_StringTest() {
 
         LinkedList<Integer> intLinkedList = new LinkedList<>();
@@ -79,6 +86,7 @@ public class LinkedListTest {
         assertEquals(expected, actual);
     }
 
+    // Testing head
     @Test public void linkedList_HeadTest() {
 
         int expected = 6;
@@ -87,6 +95,7 @@ public class LinkedListTest {
         assertEquals(expected, actual);
     }
 
+    // Testing LL True
     @Test public void linkedList_TrueTest() {
 
         boolean actual = intList.includedInList(44);
@@ -94,6 +103,7 @@ public class LinkedListTest {
         assertTrue(actual);
     }
 
+    // Testing LL False
     @Test public void linkedList_FalseTest() {
 
         boolean actual = intList.includedInList(1);
@@ -101,6 +111,7 @@ public class LinkedListTest {
         assertFalse(actual);
     }
 
+    // Testing LL Append
     @Test public void linkedList_AppendTest() {
 
         intList.append(999);
@@ -109,6 +120,7 @@ public class LinkedListTest {
         assertEquals(850009, (int) intList.head.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.followOn.value);
     }
 
+    // Testing LL insert before true
     @Test public void linkedList_BeforeValTestTrue() {
 
         LinkedList<Integer> shortList = new LinkedList<>();
@@ -124,6 +136,7 @@ public class LinkedListTest {
         assertEquals(850, (int)shortList.head.followOn.followOn.value);
     }
 
+    // Testing LL insert before False
     @Test public void linkedList_BeforeValTestFal() {
 
         LinkedList<Integer> shortList = new LinkedList<>();
@@ -138,6 +151,7 @@ public class LinkedListTest {
         assertFalse(successfullyInserted);
     }
 
+    // Testing LL middle True
     @Test public void linkedList_MidTestTrue() {
 
         LinkedList<Integer> shortList = new LinkedList<>();
@@ -152,6 +166,7 @@ public class LinkedListTest {
         assertEquals(850, (int)shortList.head.followOn.followOn.followOn.value);
     }
 
+    // Testing LL middle False
     @Test public void linkedList_MidTestFalse() {
 
         LinkedList<Integer> shortList = new LinkedList<>();
@@ -166,6 +181,7 @@ public class LinkedListTest {
         assertFalse(successfullyInserted);
     }
 
+    // Testing LL insertAfter True
     @Test public void linkedList_InsertAfterValTrue() {
 
         LinkedList<Integer> shortList = new LinkedList<>();
