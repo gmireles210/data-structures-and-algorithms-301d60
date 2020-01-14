@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3662423f-1c5d-42f3-bfac-764c123b8786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/data-structures-and-algorithms-301d60.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" afterDir="false" />
@@ -66,7 +63,7 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest.booleanValueSearch">
+  <component name="RunManager" selected="Gradle.LinkedListTest">
     <configuration name="BinarySearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -169,9 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LinkedListTest" />
         <item itemvalue="Gradle.LinkedListTest.booleanValueSearch" />
         <item itemvalue="Gradle.LinkedListTest.toStringTest" />
-        <item itemvalue="Gradle.LinkedListTest" />
         <item itemvalue="Gradle.LinkedListTest" />
         <item itemvalue="Gradle.linkedListTest" />
       </list>
@@ -203,38 +200,56 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="403" y="179" key="#Inspections" timestamp="1578951176918">
-      <screen x="0" y="0" width="1620" height="1040" />
+    <state x="3718" y="179" key="#Inspections" timestamp="1579024771510">
+      <screen x="3240" y="0" width="1920" height="1040" />
     </state>
+    <state x="3718" y="179" key="#Inspections/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579024771510" />
     <state x="403" y="179" key="#Inspections/0.0.1620.1040@0.0.1620.1040" timestamp="1578951176918" />
-    <state x="616" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578940088053">
-      <screen x="0" y="0" width="1620" height="1040" />
+    <state x="4298" y="182" width="816" height="730" key="#Intentions" timestamp="1579020019094">
+      <screen x="3240" y="0" width="1920" height="1040" />
     </state>
+    <state x="4298" y="182" width="816" height="730" key="#Intentions/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579020019094" />
+    <state x="3970" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579022445516">
+      <screen x="3240" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3970" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579022445516" />
     <state x="616" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1620.1040@0.0.1620.1040" timestamp="1578940088053" />
     <state x="278" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578948297446">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="278" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578948297446" />
+    <state x="4438" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579028598130">
+      <screen x="3240" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4438" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579028598130" />
     <state x="591" y="276" key="FileChooserDialogImpl" timestamp="1578591709247">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="591" y="276" key="FileChooserDialogImpl/0.0.1620.1040@0.0.1620.1040" timestamp="1578591709247" />
-    <state width="1578" height="282" key="GridCell.Tab.0.bottom" timestamp="1578963027879">
-      <screen x="0" y="0" width="1620" height="1040" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1579033290832">
+      <screen x="3240" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579033290832" />
     <state width="1578" height="282" key="GridCell.Tab.0.bottom/0.0.1620.1040@0.0.1620.1040" timestamp="1578963027879" />
-    <state width="1578" height="282" key="GridCell.Tab.0.center" timestamp="1578963027879">
-      <screen x="0" y="0" width="1620" height="1040" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1579033290832">
+      <screen x="3240" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579033290832" />
     <state width="1578" height="282" key="GridCell.Tab.0.center/0.0.1620.1040@0.0.1620.1040" timestamp="1578963027879" />
-    <state width="1578" height="282" key="GridCell.Tab.0.left" timestamp="1578963027879">
-      <screen x="0" y="0" width="1620" height="1040" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1579033290832">
+      <screen x="3240" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579033290832" />
     <state width="1578" height="282" key="GridCell.Tab.0.left/0.0.1620.1040@0.0.1620.1040" timestamp="1578963027879" />
-    <state width="1578" height="282" key="GridCell.Tab.0.right" timestamp="1578963027879">
-      <screen x="0" y="0" width="1620" height="1040" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1579033290832">
+      <screen x="3240" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579033290832" />
     <state width="1578" height="282" key="GridCell.Tab.0.right/0.0.1620.1040@0.0.1620.1040" timestamp="1578963027879" />
+    <state x="4330" y="271" key="caller.chooser.dialog" timestamp="1579026418700">
+      <screen x="3240" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4330" y="271" key="caller.chooser.dialog/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579026418700" />
     <state x="625" y="299" key="chooseDestDirectoryDialog" timestamp="1578951285118">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
@@ -247,5 +262,9 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="582" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1578951501166" />
+    <state x="4448" y="152" key="refactoring.ChangeSignatureDialog" timestamp="1579030997938">
+      <screen x="3240" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4448" y="152" key="refactoring.ChangeSignatureDialog/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579030997938" />
   </component>
 </project>
