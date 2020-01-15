@@ -67,3 +67,21 @@ My partner and I created methods to append and insert values onto a LinkList and
 ## Solution
 ![Test Image 2](CC6.jpg)
 
+# Code Challenge 7
+## K-th value from the end of a linked list
+Build a method that will find a specific point/mark in LL
+
+## Challenge Description
+Given an argument, find the number/value in LL and return value or throw an exception
+
+## Approach & Efficiency
+- Create int's for desired mark in LL
+- Search LL for mark
+- Create loop to search LL
+- Greater than/ less than
+- Return curr value
+- Throw an exception (ArrayIndexOut/IndexOut)
+
+## Solution
+![Test Image 2](CC7.jpg)
+
