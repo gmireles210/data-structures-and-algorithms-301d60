@@ -197,5 +197,40 @@ public class LinkedListTest {
         assertEquals(850, (int)shortList.head.followOn.value);
     }
 
+    @Test public void linkedList_KthFromEndTest_ListEnd() {
+
+        int expected = 20;
+        int actual = intList.llKthFromEnd(0);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test public void linkedList_KthFromEndTest_ListMid() {
+
+        int expected = 20;
+        int actual = intList.llKthFromEnd(6);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test public void linkedList_KthFromEndTest_ListBegin() {
+
+        int expected = 6;
+        int actual = intList.llKthFromEnd(11);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test public void linkedList_KthFromEndTest_ListSize() {
+
+        LinkedList<Integer> intList = new LinkedList<>();
+        intList.insertHead(20);
+
+        int expected = 20;
+        int actual = intList.llKthFromEnd(0);
+
+        assertEquals(expected, actual);
+    }
+
 
 }
