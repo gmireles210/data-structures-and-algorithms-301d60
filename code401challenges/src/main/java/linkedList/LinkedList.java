@@ -33,29 +33,29 @@ public class LinkedList<Potatoe> {
             head = new Node<>(value);
         } else {
             Node<Potatoe> newNode = new Node<>(value);
-            Node<Potatoe> curr3 = this.head;
-            while (curr3.followOn != null) {
-                curr3 = curr3.followOn;
+            Node<Potatoe> curr = this.head;
+            while (curr.followOn != null) {
+                curr = curr.followOn;
             }
 
-            curr3.followOn = newNode;
+            curr.followOn = newNode;
         }
     }
 
     public boolean insertBefore(Potatoe value, Potatoe newVal) {
 
-        Node<Potatoe> curr1 = this.head;
+        Node<Potatoe> curr = this.head;
 
-        while (curr1.followOn != null) {
+        while (curr.followOn != null) {
 
-            if (curr1.followOn.value.equals(value)) {
+            if (curr.followOn.value.equals(value)) {
                 Node<Potatoe> newNode = new Node<>(newVal);
-                newNode.followOn = curr1.followOn;
-                curr1.followOn = newNode;
+                newNode.followOn = curr.followOn;
+                curr.followOn = newNode;
                 return true;
             }
 
-            curr1 = curr1.followOn;
+            curr = curr.followOn;
         }
 
         return false;
@@ -63,18 +63,18 @@ public class LinkedList<Potatoe> {
 
     public boolean insertAfter(Potatoe value, Potatoe newVal) {
 
-        Node<Potatoe> curr2 = this.head;
+        Node<Potatoe> curr = this.head;
 
-        while (curr2.followOn != null) {
+        while (curr.followOn != null) {
 
-            if (curr2.value.equals(value)) {
+            if (curr.value.equals(value)) {
                 Node<Potatoe> newNode = new Node<>(newVal);
-                newNode.followOn = curr2.followOn;
-                curr2.followOn = newNode;
+                newNode.followOn = curr.followOn;
+                curr.followOn = newNode;
                 return true;
 
             }
-            curr2 = curr2.followOn;
+            curr = curr.followOn;
         }
 
         return false;
@@ -82,13 +82,13 @@ public class LinkedList<Potatoe> {
 
     public boolean includedInList(Potatoe value) {
 
-        Node<Potatoe> curr4 = this.head;
+        Node<Potatoe> curr = this.head;
 
-        while (curr4 != null) {
-            if (curr4.value == value) {
+        while (curr != null) {
+            if (curr.value == value) {
                 return true;
             } else {
-                curr4 = curr4.followOn;
+                curr = curr.followOn;
             }
         }
         return false;
@@ -103,21 +103,36 @@ public class LinkedList<Potatoe> {
 
         StringBuilder listString = new StringBuilder();
 
-        Node<Potatoe> curr5 = head;
+        Node<Potatoe> curr = head;
 
-        while (curr5 != null) {
+        while (curr != null) {
             listString.append("{ ");
-            listString.append(curr5.value.toString());
+            listString.append(curr.value.toString());
 
-            if (curr5.followOn == null) {
+            if (curr.followOn == null) {
                 listString.append(" } -> NULL");
             } else {
                 listString.append(" } -> ");
             }
-            curr5 = curr5.followOn;
+            curr = curr.followOn;
         }
 
         return listString.toString();
+    }
+
+    public Potatoe llKthFromEnd(int K) {
+
+        int mark = this.getSize() - K - 1;
+        if (mark < 0) {
+            throw new ArrayIndexOutOfBoundsException("Requested mark cannot be found!");
+        }
+
+        Node<Potatoe> curr = head;
+        while (mark > 0) {
+            curr = curr.followOn;
+            mark--;
+        }
+        return curr.value;
     }
 
     public static class Node<Potatoe2> {
