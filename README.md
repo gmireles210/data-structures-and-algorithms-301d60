@@ -85,3 +85,20 @@ Given an argument, find the number/value in LL and return value or throw an exce
 ## Solution
 ![Test Image 2](CC7.jpg)
 
+# Code Challenge 8
+## MergeLists
+Build a method called mergeLists that will merge two lists together
+
+## Challenge Description
+Given two LLists with values, merge them together based off of the values
+
+## Approach & Efficiency
+- Created a class
+- Search lists for point to merge
+- Create loop through and merge lists
+- Greater than/ less than
+- Return the merged list from the 2 incoming lists
+
+## Solution
+![Test Image 2](CC8.jpg)
+
