@@ -86,6 +86,7 @@ Given an argument, find the number/value in LL and return value or throw an exce
 ![Test Image 2](CC7.jpg)
 
 # Code Challenge 8
+- Partnered with Annie for this CC
 ## MergeLists
 Build a method called mergeLists that will merge two lists together
 
