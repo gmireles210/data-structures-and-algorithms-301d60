@@ -10,6 +10,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import org.junit.Before;
+import org.w3c.dom.Node;
 
 public class LinkedListTest {
 
@@ -230,6 +231,35 @@ public class LinkedListTest {
         int actual = intList.llKthFromEnd(0);
 
         assertEquals(expected, actual);
+    }
+
+    @Test public void linkedList_MergeTest()
+    {
+    /* Let us create two sorted linked
+       lists to test the methods
+       Created lists:
+           list1: 5->10->15,
+           list2: 2->3->20
+    */
+        LinkedList<Integer> list1 = new LinkedList<>();
+        LinkedList<Integer> list2 = new LinkedList<>();
+
+
+        // Node head1 = new Node(5);
+        list1.append(new LinkedList<Integer>());
+        list1.append(new Node(61));
+        list1.append(new Node(76));
+
+        // Node head2 = new Node(2);
+        list2.append(new Node(2));
+        list2.append(new Node(3));
+        list2.append(new Node(20));
+
+
+        list1.head = (LinkedList.Node<Integer>) new LinkedList<>().mergeList(list1.head,
+                list2.head);
+        list1();
+
     }
 
 

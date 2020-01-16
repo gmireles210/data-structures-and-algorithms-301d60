@@ -5,7 +5,7 @@ package linkedList;
 
 public class LinkedList<Potatoe> {
 
-// methods learned from class
+    // methods learned from class
     Node<Potatoe> head;
     //refactored old code using same names in order to create Node var
     static int dataVal;
@@ -133,6 +133,33 @@ public class LinkedList<Potatoe> {
             mark--;
         }
         return curr.value;
+    }
+
+
+    public Potatoe mergeList(Potatoe list1, Potatoe list2) {
+        if (list1 == null) return list2;
+        if (list2 == null) return list1;
+
+        Node<Potatoe> curr = this.head;
+
+        if (list1.this.head < list2.this.head) {
+            this.head = (Node<Potatoe>) list1;
+        } else {
+            this.head = (Node<Potatoe>) list2;
+            list2 = list1;
+            list1 = (Potatoe) this.head;
+        }
+        while(list1 != null) {
+            if (list1.dataVal > list2.dataVal) {
+                Node tmp = list1.dataVal;
+                list1.followOn = list2;
+                list2 = (Potatoe) tmp;
+            }
+            list1 = list1.followOn;
+        }
+        list1.followOn = list2;
+
+        return (Potatoe) this.head;
     }
 
     public static class Node<Potatoe2> {
