@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3662423f-1c5d-42f3-bfac-764c123b8786" name="Default Changelist" comment="" />
+    <list default="true" id="3662423f-1c5d-42f3-bfac-764c123b8786" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +31,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,6 +62,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="linkedList" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.LinkedListTest">
@@ -218,6 +226,10 @@
       <screen x="3240" y="0" width="1920" height="1040" />
     </state>
     <state x="4438" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1620.1040/3240.0.1920.1040@3240.0.1920.1040" timestamp="1579028598130" />
+    <state x="289" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579198487904">
+      <screen x="0" y="0" width="1620" height="1040" />
+    </state>
+    <state x="289" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1579198487904" />
     <state x="591" y="276" key="FileChooserDialogImpl" timestamp="1578591709247">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
